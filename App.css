@@ -1,0 +1,131 @@
+/**,*::before,*:after{
+  box-sizing: border-box;
+}*/
+/******NAVBAR***************/
+.icon1{
+    width: 70px;
+    height: 70px ;
+}
+.image1{
+    width: 100%;
+    height: 500px;
+   
+    
+}
+.texts{
+    color: black;
+}
+.navbar{
+    background:transparent;
+    top: 0;
+    padding-top: 8px;
+    position: sticky;
+    display: flex;
+
+}
+/**********cards1*********/
+.city {
+    display: flex;
+  }
+  
+  .cities {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .cities>* {
+    flex: 25%;
+  }
+  
+  .explore-img {
+    width: 10px;
+    height: 64px;
+    border-radius: 5px;
+  }
+  
+  .card-img {
+    width: 250px;
+    height: 267px;
+    border-radius: 5px;
+  }
+  
+  a p, a b  {
+    color: rgb(34, 34, 34);
+    line-height: 15px;
+    
+  }
+  
+  a p {
+    font-size: 18px;
+  }
+  
+  a b {
+    font-size: 14px;
+  }
+  
+  a , a:hover{
+    text-decoration: none;
+  }
+  /********Cards2********************/
+  .citie{
+    width: 20em;
+   
+    display: flex;
+    border-radius: 4;
+    margin-right: 10px;
+    padding-right: 20px;
+  }
+ .myCards{
+    margin-right: 30px;
+   
+
+  }
+  .card{
+    width: 18em;
+    margin-left:10px;
+  
+ 
+   
+  }
+  /************card3********/
+  .card3{
+    width: 90%;
+    margin-left: 70px;
+    margin-right: 5px;
+    height: 450px;
+   
+  }
+  img{
+    border-radius: 10px;
+  }
+  /********Crads4**********/
+  .cardy{
+    display: flex;
+    justify-content: space-evenly;
+  
+  
+  }
+/*******Footer********/
+.footerS{
+  display: flex;
+  background-color: rgb(224, 230, 231);
+  width: 100%;
+  
+
+}
+.trait{
+  color: black;
+  
+}
+/****footer2****/
+.listy{
+  display: flex;
+background-color: rgb(212, 212, 212);
+}
+ul{
+  list-style: none;
+  display: flex;
+}
+.rights{
+  background-color: rgb(211, 206, 206);
+}
